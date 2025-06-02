@@ -29,12 +29,14 @@
 
 <body>
 
+<!-- ====================================================== -->
 <section id=abstract>
 <p>
-This document firstly describes the current status around smart cities standardization by various standardization organizations (SDOs), secondly discuss what to be done as the next steps to implement services and applications for smart cities which are interoperable within the local community and the whole globe, and thirdly shows the expectations for several key concepts of the Web standardization to make it happen.
+    This document firstly describes the current status around smart cities standardization by various standardization organizations (SDOs), secondly discuss what to be done as the next steps to implement services and applications for smart cities which are interoperable within the local community and the whole globe, and thirdly shows the expectations for several key concepts of the Web standardization to make it happen.
 </p>
 </section>
 
+<!-- ====================================================== -->
 <section id=sotd>
 <p>
 This document is intended to capture the current shared understanding of the W3C Team on the current and expected impact of developments related to Smart Cities services and applications on the Web, and to identify the latest standardization work the World Wide Web Consortium (W3C) community has started to handle the issues even better. It does not represent any consensus from the W3C Membership nor is it a standardization document.
@@ -50,6 +52,7 @@ Depending on the feedback received, possible next steps include giving feedback 
 </p>
 </section>
 
+<!-- ====================================================== -->
 <section>
   <h2>Executive Summary</h2>
 <p>
@@ -98,9 +101,81 @@ So there is strong need:
 <p>Now we are seeking input from the community on proposals that could help make progress on these topics, and on other topics that this document has failed to identify.</p>
 </section>
 
+<!-- ====================================================== -->
 <section>
-<h2>Motivation and Background</h2>
-<h3>Initial discussion during the Smart Cities Workshop in 2021</h3>
+    <h2>Introduction to Smart Cities</h2>
+
+    <section>
+        <h3>What is a Smart City?</h3>
+        <p>(introduce the digital twin concept here if it’s important to the overall narrative.)</p>
+    </section>
+
+    <section>
+        <h3>Success stories</h3>
+        <p>(List here some projects in different parts of the world)</p>
+    </section>
+</section>
+
+<section>
+    <h2>Smart Cities and the Web</h2>
+
+    <section>
+    <h3>Why is the Web important to Smart Cities?</h3>
+
+    Some ideas that occur to me:
+       - People need interoperability when they travel from place to place
+       - People need a reliable interface for people to interact with smart cities, and need accessibility, privacy, etc.
+    </section>
+
+    <section>
+        <h3>Why are W3C technologies important for Smart Cities?</h3>
+
+        <p>WoT illustrates the idea of a Web layer on top of various lower level standards.</p>
+        <p>Our mission-driven standards will make it easier and safer for people to interact with smart cities. (Talk about horizontal review, etc.)</p>
+
+        <p>List of related groups around core functionality (at the Web later) for Smart Cities, e.g.:</p>
+	      <ul>
+            <li>Credentials</li>
+	          <li>Geolocation</li>
+	          <li>Voice input modality</li>
+	          <li>Edge computing</li>
+            <li>VR, AR</li>
+	          <li>WoT</li>
+            <li>Automotive</li>
+        </ul>
+
+        <p>Diagram of different entities in a smart cities environment (TBD)</p>
+        <p>describing why these concepts are important to the proper functioning of the system. And why interoperability is so important.</p>
+    </section>
+
+    <section>
+        <h3>Gap Analysis: how can we improve the Web for Smart Cities</h3>
+    </section>
+
+    <section>
+        <h2>Current Work</h2>
+        <p>At this point, having explored what we could do to be useful at W3C,
+   we can talk about the status of current work and how the activities
+            of different groups (both inside and outside W3C) relate.</p>
+        <p>don't need to say much about the Workshop from 2021 but certainly include a link to the report findings that led to the launch of chartered groups.</p>
+    </section>
+</section>
+
+<section>
+<h2>References</h2>
+<p>(TBD)</p>
+</section>
+
+<hr/>
+<!-- ====================================================== -->
+<section class="appendix">
+<h2>Obsolete Contents</h2>
+
+<section>
+<h3>Motivation and Background</h3>
+
+<section>
+<h4>Initial discussion during the Smart Cities Workshop in 2021</h4>
 <p>&quot;Smart Cities&quot; refers to a range of technologies and processes for intelligent management of our built and inhabited environment. As interest rises, we see prospects for smarter and easier integration of various technologies from multiple vendors related to IoT devices and Web services.</p>
 <p>Several preliminary use cases on Smart Cities have been discussed within the Web of Thing (WoT) IG as part of the WoT standardization based on the proposal during the Second WoT Workshop in Munich.</p>
 <p>However, Smart Cities include various technologies, of which WoT is just one. So W3C organized a virtual online workshop on Smart Cities in June 2021 to finalize this Charter for the Smart Cities Interest Group to collect input from the Smart Cities stakeholders.</p>
@@ -111,8 +186,10 @@ So there is strong need:
 <li>Saw how to improve the draft Charter for the potential Smart Cities Interest Group for further discussions within that IG</li>
 <li>We also confirmed that it would be very important to consider inclusive design including accessibility, privacy, security, and internationalization. Smart City applications are tightly related to the people who live in cities. We want Smart City technology to have a positive impact on their lives and want to avoid unintended negative consequences.</li>
 </ul>
+</section>
 
-<h3>Follow-up discussion during the TPAC 2022 breakout, etc.</h3>
+<section>
+<h4>Follow-up discussion during the TPAC 2022 breakout, etc.</h4>
 <p>Follow-up discussion on Web-based Digital Twins for Smart Cities was organized at (1) the breakout session during TPAC 2022 in Vancouver, Canada and (2) another breakout session during TPAC 2023 in Seville, Spain, and representatives from the following standardization organizations discussed the current situation and problems of their standardization work on Smart Cities:</p>
 <ul>
 <li>ECHONET</li>
@@ -124,8 +201,13 @@ So there is strong need:
 <li>W3C</li>
 </ul>
 <p>As a consequence, the participants identified that &quot;Digital Twins&quot; would be the key concept to handle Smart Cities services in a standardized manner, and got consensus to continue further discussion on a possible framework of Web-based Digital Twins for Smart Cities within the W3C to cope with remaining issues of Smart Cities.</p>
-<h3>What has been done so far</h3>
-<h4>W3C Web of Things</h4>
+</section>
+
+<section>
+<h4>What has been done so far</h4>
+
+<section>
+<h5>W3C Web of Things</h5>
 <p>IoT developers face the big problem of “IoT Silos” when creating an application including multiple services from different IoT platforms.</p>
 <p>[Fig:IoT Silos]</p>
 <p>The W3C Web of Things (WoT) Working Group has been working on standards to counter the fragmentation of the IoT and enable easy integration of IoT devices and services across IoT platforms and application domains by providing a common description across different ecosystems (=WoT Thing Description), standards.</p>
@@ -136,14 +218,21 @@ So there is strong need:
 <li>Smart building (collaboratively with IPA DADC): Integrate various sensor networks and various devices by WoT within a smart building which use different data models and protocols.</li>
 <li>Smart factory (collaboratively with OPC Foundation's OPC UA (Uivied Architecture): A bottling line consists of a filling module, a capping module, a labeling module, and a transport system. The production line is provided via an OPC UA endpoint for control and monitoring purposes.</li>
 </ul>
-<h3>Related SDO's work</h3>
+</section>
+
+<section>
+<h5>Related SDO's work</h5>
 <ul>
 <li>IEC SC3D's Common Data Dictionary (CDD): Defining common methodology and product ontology for various IoT purposes.</li>
 <li>ISO/IEC JTC1 WG11: Various standards on smart cities and digital twins, e.g., ISO/IEC 30146:2019</li>
 <li>ITU-T SG20: Standardization on IoT and Smart Cities from the ICT viewpoint, e.g., Data Processing and Management (FG-DPM)</li>
 <li>Open Geospatial Consortium (OGC): Geospatial standards and tools around smart cities and digital twins</li>
 </ul>
-<h3>What is still missing?</h3>
+</section>
+</section>
+
+<section>
+<h4>What is still missing?</h4>
 <p>During the discussions so far, there are strong needs for the followings:</p>
 <ul>
 <li>Guidelines for real-world engineering, e.g., for Device discovery
@@ -152,7 +241,10 @@ Inter-system binding including ID authentication and management</li>
 <li>Semantic interoperability, Standardized vocabulary, and Catalog to start with the data search</li>
 <li>Accessibility, Geolocation, etc.</li>
 </ul>
-<h3>“Digital Twins” as the Key Concept</h3>
+</section>
+
+<section>
+<h4>“Digital Twins” as the Key Concept</h4>
 <p>During the discussions at the TPAC 2022 breakout, it was identified “Digital Twins” would be the key concept for Smart Cities services, and we should start with clarifying the use cases and requirements for “Digital Twins” first.</p>
 <p>Note that there are various definitions for &quot;Digital Twins&quot; all over the world. However, given the collaborative discussion with ITU-T SG20 and ISO/IEC JTC 1/WG11 starting with the Smart Cities Workshop, we'd like to use the following basic definition from &quot;Y.4605&quot; as the starting point.</p>
 <blockquote>
@@ -177,12 +269,13 @@ Inter-system binding including ID authentication and management</li>
 </center>
 <p>During the group's discussion, we’ll see the other existing definitions of &quot;Digital Twins&quot; from the other SDOs and actual Smart Cities, and work on further clarifications about the definition of “Web-based Digital Twins”.</p>
 </section>
+</section>
 
 <section>
-<h2>W3C Web-based Digital Twins for Smart Cities Interest Group (SCIG)</h2>
+<h3>W3C Web-based Digital Twins for Smart Cities Interest Group (SCIG)</h3>
 
 <section>
-<h3>Mission</h3>
+<h4>Mission</h4>
 <p>The mission of the Web-based Digital Twins for Smart Cities Interest Group is:</p>
 <ul>
 <li>to identify and document use cases and requirements that W3C specifications need to meet to support various services within Smart Cities,</li>
@@ -193,7 +286,7 @@ Inter-system binding including ID authentication and management</li>
 </section>
 
 <section>
-<h3>Scope of the Group</h3>
+<h4>Scope of the Group</h4>
 <blockquote>
 <p><code>[Scope Summary]</code></p>
 <ul>
@@ -253,7 +346,7 @@ Inter-system binding including ID authentication and management</li>
 </section>
 
 <section>
-<h3>Related W3C Groups</h3>
+<h4>Related W3C Groups</h4>
 <ul>
 <li>Web of Things (WoT) IG/WG/CG/JP-CG: internet of things, discovery, edge computing</li>
 <li>Decentralized Identifiers (DID) WG / Verifiable Credentials (VC** WG / Credentials CG: identifiers, signing, credentials, authentications</li>
@@ -284,7 +377,7 @@ Accessible Infographics CG: data visualization</li>
 </section>
 
 <section>
-<h3>Related SDOs working on Smart Cities:</h3>
+<h4>Related SDOs working on Smart Cities</h4>
 <ul>
 <li>IETF: communication protocols, data modelling, discovery, and security standards</li>
 <li>ITU-T: standards for telecommunication technologies and the use cases they enable</li>
@@ -304,7 +397,7 @@ Accessible Infographics CG: data visualization</li>
 </section>
 
 <section>
-<h3>Economic Unions and Communities (not limited to but including the following)</h3>
+<h4>Economic Unions and Communities (not limited to but including the following)</h4>
 <ul>
 <li>ASEAN: Discussion of smart city use cases and deployments in South-East Asia.</li>
 <li>The World Economic Forum: improving the state of the world by engaging business, political, academic, and other leaders</li>
@@ -317,7 +410,7 @@ Accessible Infographics CG: data visualization</li>
 </section>
 
 <section>
-<h3>Countries and Cities</h3>
+<h4>Countries and Cities</h4>
 <ul>
 <li>Japan</li>
 <li>China</li>
@@ -331,19 +424,11 @@ Accessible Infographics CG: data visualization</li>
 </section>
 
 <section>
-<h3>Survey Results So Far</h3>
+<h4>Survey Results So Far</h4>
 <p>Available on <a href="https://github.com/w3c/smart-cities/blob/main/resources.md">the SCIG's GitHub repository</a>.</p>
 </section>
 </section>
-
-<section>
-<h2>Impact of Web-based Digital Twins for Smart City Standardization</h2>
-<p>(TBD)</p>
 </section>
-
-<section>
-<h2>References</h2>
-<p>(TBD)</p>
 
 </body>
 </html>
